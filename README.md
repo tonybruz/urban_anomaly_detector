@@ -42,5 +42,5 @@ python run_analysis.py
 
 1. **Клонирование проекта:**
 ```bash
-cd brothel_detector_project
+cd urban_anomaly_detector
 
