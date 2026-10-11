@@ -21,7 +21,17 @@
 - Регулярность посещений (20-45 дней) - 20%
 - Вечерний пик (19:00-02:00) - 10%
 
+Структура
+
+    simulator.py — генерация синтетических данных городской мобильности
+    detector.py — алгоритм обнаружения с 5 метриками и дискриминатором
+    run_analysis.py — запуск полного цикла анализа с генерацией и обнаружением
+
+
 ## 🚀 Быстрый старт
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+python run_analysis.py
 
 ### Требования
 - Python 3.12+
@@ -33,3 +43,4 @@
 1. **Клонирование проекта:**
 ```bash
 cd brothel_detector_project
+
