@@ -1,3 +1,7 @@
+# Генерируемые каталоги.
+brothel_analysis/
+output/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
