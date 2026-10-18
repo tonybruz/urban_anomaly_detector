@@ -28,19 +28,37 @@
     run_analysis.py — запуск полного цикла анализа с генерацией и обнаружением
 
 
-## 🚀 Быстрый старт
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-python run_analysis.py
 
 ### Требования
 - Python 3.12+
 - 8 ГБ ОЗУ (рекомендуется)
 - Многоядерный процессор (оптимально 8+ ядер)
 
-### Установка
 
-1. **Клонирование проекта:**
-```bash
-cd urban_anomaly_detector
 
+## 🚀 Быстрый старт
+
+### Unix-like (SH, BASH, ZSH)
+```sh
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+python run_analysis.py
+```
+
+### Windows (PowerShell)
+```powershell
+# Копируем репозиторий.
+git clone https://github.com/tonybruz/urban_anomaly_detector.git
+
+# Переходим в каталог проекта.
+cd .\urban_anomaly_detector\
+
+# Удовлетворям Python зависимости.
+pip install -r .\requirements.txt
+
+# Запускаем симулятор.
+python.exe .\simulator.py
+
+# Запускаем детектор.
+python.exe .\detector.py
+```
